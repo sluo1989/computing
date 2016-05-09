@@ -1,0 +1,74 @@
+2016-02-08 20:05:33[psd]:  [program started on Mon Feb  8 20:05:33 2016] 
+2016-02-08 20:05:33[psd]:  [command line arguments] 
+2016-02-08 20:05:33[psd]:  datafile http://torch7.s3-website-us-east-1.amazonaws.com/data/tr-berkeley-N5K-M56x56-lcn.ascii 
+2016-02-08 20:05:33[psd]:  seed 1 
+2016-02-08 20:05:33[psd]:  hessiansamples 500 
+2016-02-08 20:05:33[psd]:  rundir outputs/psd 
+2016-02-08 20:05:33[psd]:  minhessian 0.02 
+2016-02-08 20:05:33[psd]:  kernelsize 9 
+2016-02-08 20:05:33[psd]:  hessian true 
+2016-02-08 20:05:33[psd]:  model conv-psd 
+2016-02-08 20:05:33[psd]:  maxhessian 500 
+2016-02-08 20:05:33[psd]:  nfiltersout 16 
+2016-02-08 20:05:33[psd]:  nfiltersin 1 
+2016-02-08 20:05:33[psd]:  inputsize 25 
+2016-02-08 20:05:33[psd]:  statinterval 5000 
+2016-02-08 20:05:33[psd]:  hessianinterval 10000 
+2016-02-08 20:05:33[psd]:  lambda 1 
+2016-02-08 20:05:33[psd]:  eta 0.002 
+2016-02-08 20:05:33[psd]:  beta 1 
+2016-02-08 20:05:33[psd]:  momentum 0 
+2016-02-08 20:05:33[psd]:  etadecay 1e-05 
+2016-02-08 20:05:33[psd]:  maxiter 1000000 
+2016-02-08 20:05:33[psd]:  threads 2 
+2016-02-08 20:05:33[psd]:  dir outputs 
+2016-02-08 20:05:33[psd]:  v false 
+2016-02-08 20:05:33[psd]:  batchsize 1 
+2016-02-08 20:05:33[psd]:  wcar  
+2016-02-08 20:05:33[psd]:  display false 
+2016-02-08 20:05:33[psd]:  [----------------------] 
+2016-02-08 20:05:33[psd]:  
+2016-02-08 20:05:33[psd]:  [1;30m[0.0058s][0m 
+2016-02-08 20:05:59[psd]:  true exit 0 
+2016-02-08 20:05:59[psd]:  [1;30m[0.0092s][0m 
+2016-02-08 20:06:11[psd]:  table: 0x098abbb8 
+2016-02-08 20:06:11[psd]:  [1;30m[0.0001s][0m 
+2016-02-08 20:06:25[psd]:  table: 0x098abbb8 
+2016-02-08 20:06:25[psd]:  [1;30m[0.0001s][0m 
+2016-02-08 20:06:37[psd]:  outputs 
+2016-02-08 20:06:37[psd]:  [1;30m[0.0001s][0m 
+2016-02-08 20:06:41[psd]:  outputs/psd 
+2016-02-08 20:06:41[psd]:  [1;30m[0.0001s][0m 
+2016-02-08 20:07:05[psd]:  5000 
+2016-02-08 20:07:05[psd]:  [1;30m[0.0001s][0m 
+2016-02-08 20:07:18[psd]:  false 
+2016-02-08 20:07:18[psd]:  [1;30m[0.0001s][0m 
+2016-02-08 20:07:34[psd]:  http://torch7.s3-website-us-east-1.amazonaws.com/data/tr-berkeley-N5K-M56x56-lcn.ascii 
+2016-02-08 20:07:34[psd]:  [1;30m[0.0001s][0m 
+2016-02-08 20:07:52[psd]:  tr-berkeley-N5K-M56x56-lcn.ascii 
+2016-02-08 20:07:52[psd]:  [1;30m[0.0001s][0m 
+2016-02-08 20:08:30[psd]:  25 
+2016-02-08 20:08:30[psd]:  [1;30m[0.0001s][0m 
+2016-02-08 20:08:45[psd]:  [1;30m[0.0000s][0m 
+2016-02-08 20:08:47[psd]:  http://torch7.s3-website-us-east-1.amazonaws.com/data/tr-berkeley-N5K-M56x56-lcn.ascii 
+2016-02-08 20:08:47[psd]:  [1;30m[0.0001s][0m 
+2016-02-08 20:09:01[psd]:  [1;30m[0.0000s][0m 
+2016-02-08 20:09:02[psd]:  tr-berkeley-N5K-M56x56-lcn.ascii 
+2016-02-08 20:09:02[psd]:  [1;30m[0.0001s][0m 
+2016-02-08 20:09:22[psd]:  cannot open <tr-berkeley-N5K-M56x56-lcn.ascii> in mode r  at /Users/Shikai/Downloads/torch/pkg/torch/lib/TH/THDiskFile.c:640
+stack traceback:
+	[C]: at 0x09296030
+	[C]: in function 'DiskFile'
+	./autoencoder-data.lua:5: in function 'getdata'
+	[string "dataset = getdata(filename, params.inputsize)"]:1: in main chunk
+	[C]: in function 'xpcall'
+	/usr/local/torch/share/lua/5.1/trepl/init.lua:668: in function 'repl'
+	/usr/local/torch/lib/luarocks/rocks/trepl/scm-1/bin/th:199: in main chunk
+	[C]: at 0x0108f32c00 
+2016-02-08 20:09:22[psd]:  [1;30m[0.0002s][0m 
+2016-02-08 20:35:48[psd]:  1 
+2016-02-08 20:35:48[psd]:  [1;30m[0.0001s][0m 
+2016-02-08 20:38:16[psd]:  1 
+2016-02-08 20:38:16[psd]:  [1;30m[0.0001s][0m 
+2016-02-08 20:38:19[psd]:  16 
+2016-02-08 20:38:19[psd]:  [1;30m[0.0001s][0m 

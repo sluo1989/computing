@@ -209,7 +209,7 @@ frame.drop(['Ohio', 'California'], axis=1, inplace=False)
 
 
 # indexing, selection, filtering
-frame = DataFrame(np.arange(9).reshape((3,3)), index=['a','c','d'],
+frame = pd.DataFrame(np.arange(9).reshape((3,3)), index=['a','c','d'],
                   columns=['Ohio','Texas','California'])
 frame['Ohio']
 frame[['Ohio','California']]
